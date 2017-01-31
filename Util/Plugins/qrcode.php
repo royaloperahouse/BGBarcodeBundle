@@ -107,7 +107,7 @@ class qrcode
         N2 = 3, // Down point base value for case 2 mask pattern (module block of same color)
         N3 = 40, // Down point base value for case 3 mask pattern (1:1:3:1:1(dark:bright:dark:bright:dark)pattern in a line or a column)
         N4 = 10, // Down point base value for case 4 mask pattern (ration of dark modules in whole)
-        QR_FIND_BEST_MASK = true, // if true, estimates best mask (spec. default, but extremally slow; set to false to significant performance boost but (propably) worst quality code
+        QR_FIND_BEST_MASK = false, // if true, estimates best mask (spec. default, but extremally slow; set to false to significant performance boost but (propably) worst quality code
         QR_FIND_FROM_RANDOM = 2, // if false, checks all masks available, otherwise value tells count of masks need to be checked, mask id are got randomly
         QR_DEFAULT_MASK = 2; // when QR_FIND_BEST_MASK === false
 
