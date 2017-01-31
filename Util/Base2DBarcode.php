@@ -241,6 +241,7 @@ class Base2DBarcode
         $html = '<table cellspacing=0 cellpadding=0 border=0';
         $html .= ' width='.($w * $this->barcodeArray['num_cols']);
         $html .= ' height='.($h * $this->barcodeArray['num_rows']);
+        $html .= ' align=right';
         $html .= ' class=barcode';
         // font-size:1px is required for Outlook 2013, even if emptyCells is true
         $html .= ' style="font-size:1px;font-size:0;line-height:0;overflow:hidden"';
